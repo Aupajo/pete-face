@@ -16,7 +16,7 @@ $().ready(function() {
 });
 
 function showSection(section) {
-  $('.section').hide();
+  $('#article .section').hide();
   $('#nav a').removeClass('selected');
   $('#nav a[href=' + section + ']').addClass('selected');
   $(section).show();
