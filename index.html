@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PeteFace</title>
+    <script src="http://code.jquery.com/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/jquery.tweet.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/application.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="stylesheets/master.css" type="text/css" media="screen" charset="utf-8">
+  </head>
+  <body>
+    
+    <div id="header">
+      <h1>PeteFace</h1>
+    </div>
+    
+    <div id="global">
+      <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fpeteface.me&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=30" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:30px;" allowTransparency="true"></iframe>
+    
+      <ul id="nav">
+        <li><a href="#wall">Wall</a></li>
+        <li><a href="#info">Info</a></li>
+      </ul>
+    </div>
+    
+    <div id="article">
+      
+      <div id="wall" class="section">
+        <div id="twitter-messages"></div>        
+        <div id="comments">
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+            var disqus_developer = 1;
+    
+            (function() {
+             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+             dsq.src = 'http://peteface.disqus.com/embed.js';
+             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=peteface">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+      </div>
+    
+      <div id="info" class="section">
+        <h3>Basic Information</h3>
+      
+        <dl>
+          <dt>Birthday:</dt>
+          <dd>August 5, 1988</dd>
+          <dt>Relationship Status:</dt>
+          <dd>In a (loving) relationship with <a href="/">himself</a>.</dd>
+          <dt>Looking For:</dt>
+          <dd>Keys</dd>
+        </dl>
+      
+        <h3>Contact Information</h3>
+      
+        <dl>
+          <dt>Twitter:</dt>
+          <dd><a href="http://twitter.com/Aupajo">@Aupajo</a></dd>
+          <dt>Mobile:</dt>
+          <dd class="tel">+64 27 308 0822</dd>
+          <dt>LinkedIn:</dt>
+          <dd><a href="http://nz.linkedin.com/in/petenichollsnz ">Pete Nicholls</a></dd>
+        </dl>
+      
+        <h3>Education and Work</h3>
+      
+        <dl>
+          <dt>High School:</dt>
+          <dd><a href="http://unlimited.school.nz/">Unlimited Paenga Tawhiti</a> (2004-2006)</dd>
+          <dt>Occupation:</dt>
+          <dd>
+            Director at <a href="http://gennaker.co.nz">Gennaker Performance</a><br>
+            Chief Toast Butterer at <a href="http://metanation.com">MetaNation</a><br>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    
+  </body>
+</html>
