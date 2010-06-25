@@ -1,7 +1,7 @@
 $().ready(function() {
   $("#twitter-messages").tweet({
     username: "Aupajo",
-		count: 10,		
+		count: 5,		
     join_text: "<a href='http://twitter.com/Aupajo'>Pete</a> wrote",
     avatar_size: 40,
     loading_text: "Loading tweets&hellip;"
