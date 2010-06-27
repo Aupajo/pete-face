@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="http://code.jquery.com/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/jquery.tweet.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/application.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="stylesheets/master.css" type="text/css" media="screen" charset="utf-8">
+  </head>
+  <body>
+    
+    <div id="header">
+      <div class="wrapped">
+        <h1></h1>
+        <div class="tagline"></div>
+      </div>
+    </div>
+    
+    <div class="wrapped">
+      <div id="aside">
+        <img src="images/avatar.jpg" alt="Pete" title="Most handsome!">
+        <div class="section">
+          <h3>Links</h3>
+          <div class="core">
+            <ul>
+              <li><a href="http://twitter.com/Aupajo">Twitter</a></li>
+              <li><a href="http://github.com/Aupajo">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Everyone Likes This</h3>
+          <div class="core">
+            <p>How could they not?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="global">
+      <div class="wrapped">
+        <h2> </h2>
+        
+        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fpeteface.me&amp;layout=standard&amp;show_faces=true&amp;width=300&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=30" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:30px;" allowTransparency="true"></iframe>
+  
+        <ul id="nav">
+          <li><a href="#wall">Wall</a></li>
+          <li><a href="#info">Info</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="wrapped">
+      <div id="article">
+        <div id="wall" class="section">
+          <div id="twitter-messages"></div>        
+          <div id="comments">
+            
+          </div>
+        </div>
+    
+        <div id="info" class="section">
+          
+          
+          
+          <h3>Basic Information</h3>
+      
+          <dl>
+            <dt>Birthday:</dt>
+            <dd>August 5, 1988</dd>
+            <dt>Relationship Status:</dt>
+            <dd>In a relationship with <a href="/">himself</a>.</dd>
+            <dt>Looking For:</dt>
+            <dd>Keys</dd>
+          </dl>
+      
+          <h3>Contact Information</h3>
+      
+          <dl>
+            <dt>Twitter:</dt>
+            <dd><a href="http://twitter.com/Aupajo">@Aupajo</a></dd>
+            <dt>GitHub:</dt>
+            <dd><a href="http://github.com/Aupajo">Aupajo</a></dd>
+            <dt>Mobile:</dt>
+            <dd class="tel">+64 27 308 0822</dd>
+            <dt>LinkedIn:</dt>
+            <dd><a href="http://nz.linkedin.com/in/petenichollsnz">Pete Nicholls</a></dd>
+          </dl>
+      
+          <h3>Education and Work</h3>
+      
+          <dl>
+            <dt>Occupation:</dt>
+            <dd>
+              Director at <a href="http://gennaker.co.nz">Gennaker Performance</a><br>
+              Chief Toast Butterer at <a href="http://metanation.com">MetaNation</a><br>
+            </dd>
+          </dl>
+          
+          <h3>Personal Information</h3>
+          
+          <dl>
+            <dt>Interests:</dt>
+            <dd>
+              <a href="http://twitter.com/Aupajo">Triviality</a><br>
+              <a href="http://foursquare.com/user/aupajo">Travelling/Politics</a><br>
+              <a href="http://www.thetwistedhop.co.nz/">Twisting Hops</a><br>
+              <a href="http://www.thebicyclethief.co.nz/">Tasty Coffee</a><br>
+              <a href="http://doublejumphq.com/versus/2010/06/21/sins-of-a-solar-empire.html">Writing Fripperies</a><br>
+              <a href="http://spacecraft.org.nz/">Crafting Spaces</a><br>
+              <strike>Entrurpr</strike> <strike>Entrape</strike>
+              <a href="http://gennaker.co.nz/">Making Money</a><br>
+              <a href="http://github.com/Aupajo">Hubbing most Gitly</a><br>
+              <a href="http://www.slideshare.net/Aupajo/rapid-web-design-prototyping-with-html5-and-webkit">Speaking in Tongues</a>
+            </dd>
+          </dl>
+          
+          <dl>
+            <dt>Superheroes:</dt>
+            <dd>
+              <a href="http://en.wikipedia.org/wiki/Why_the_lucky_stiff">Why the Lucky Stiff</a><br>
+              <a href="http://www.valvesoftware.com/">Gabe Newell</a><br>
+              <a href="http://www.neilgaiman.com/">Neil Gaiman</a><br>
+              <a href="http://www.penny-arcade.com/">Jerry Holkins</a><br>
+              <a href="http://en.wikipedia.org/wiki/Terry_Pratchett">Terry Pratchett</a><br>
+              <a href="http://37signals.com/">Jason Fried</a><br>
+              <a href="http://www.hplovecraft.com/">H.P. Lovecraft</a><br>
+              <a href="http://richarddawkins.net/">Richard Dawkins</a><br>
+              <a href="http://www.paul-rand.com/">Paul Rand</a><br>
+              <a href="http://www.douglasadams.com/">Douglas Adams</a>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17158141-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    
+  </body>
+</html>

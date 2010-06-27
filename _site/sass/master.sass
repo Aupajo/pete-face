@@ -1,0 +1,132 @@
+@import reset
+
+body
+  font: 9pt/1.6em "Lucida Grande", "Lucida Sans Unicode", sans-serif
+  margin: 0 auto 2em
+
+h1
+  color: white
+  font-size: 1.4em
+
+h2
+  font-size: 1.4em
+  margin-right: 20px
+  float: left
+
+p, ul
+  margin: 0.5em 0
+
+.wrapped
+  margin: 0 auto
+  width: 960px
+
+#header
+  background-color: #3B5998
+  color: #98A7C7
+  overflow: hidden
+  padding: 10px 20px
+  
+  h1
+    float: left
+    margin-right: 1em
+
+#article
+  margin-left: 220px
+  width: 540px
+
+#aside
+  border-bottom: 1px solid #94A3C4
+  position: absolute
+  margin-top: 20px
+  width: 200px
+  
+  img
+    margin-bottom: 10px
+  
+  .section
+    border-top: 1px solid #94A3C4
+    border-right: 1px solid #D8DFEA
+      
+    h3, .core
+      padding: 0.2em 0.5em
+    
+    h3
+      background-color: #ECEFF5
+      margin: 0
+
+#global
+  border-bottom: 1px solid #D8DFEA
+  background-color: #EDEFF4
+  margin-bottom: 20px
+  padding: 20px 20px 0
+  
+  .wrapped
+    padding-left: 220px
+    width: 740px
+  
+#nav
+  margin-bottom: -1px
+  overflow: hidden
+  
+  a
+    border: 1px solid #D8DFEA
+    background-color: #D8DFEA
+    display: block
+    float: left
+    font-weight: bold
+    margin-right: 2px
+    padding: 0.2em 1em
+    
+    &.selected
+      border: 1px solid #D8DFEA
+      border-bottom: 1px solid white
+      background-color: white
+      color: black
+  
+a
+  text-decoration: none
+  
+  &:link, &:visited
+    color: #3B5998
+
+h3
+  margin: 0.5em 0
+
+dt
+  color: #808080
+  float: left
+  width: 140px
+
+dd
+  float: left
+  width: 400px
+  
+dl
+  overflow: hidden
+  margin: 1em 0
+
+.tweet_list li
+  border-bottom: 1px solid #eee
+  overflow: hidden
+  padding: 10px 0
+
+.tweet_avatar
+  margin-right: 10px
+  float: left
+
+.tweet_time
+  a
+    color: #777777
+
+.tweet_join
+  float: left
+  font-weight: bold
+  margin-right: 0.5em
+
+.tweet_text
+  float: left
+  display: block
+  width: 490px
+
+#comments
+  width: 540px

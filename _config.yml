@@ -1,0 +1,37 @@
+# Jekyll configuration
+source:      ./source
+destination: ./public
+auto:        false
+lsi:         false
+server_port: 4000
+pygments:    false
+markdown:    maruku
+permalink:   date
+
+# Global variables (accessible from site object)
+site_name: PeteFace
+tagline: Like Facebook only with me in it.
+name:
+  first: Pete
+  last: Nicholls
+
+# Sections
+info:
+  # Add categories as you see fit. Words with spaces must have speech marks.
+  -
+    "Basic Information":
+      Birthday: August 5, 1988
+      "Relationship Status": In a relationship with <a href="/">himself</a>.
+      "Looking For": Keys
+  -
+    "Contact Information":
+      Twitter: <a href="http://twitter.com/Aupajo">@Aupajo</a>
+      GitHub: <a href="http://github.com/Aupajo">Aupajo</a>
+      Mobile: +64 27 308 0822
+      LinkedIn: <a href="http://nz.linkedin.com/in/petenichollsnz">Pete Nicholls</a>
+
+# Optional
+url: http://peteface.me
+twitter: Aupajo # used for the Wall
+disqus_shortname: peteface # used for Disqus comments
+google_analytics: UA-17158141-1
